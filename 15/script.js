@@ -18,7 +18,7 @@ function generateKey(length, arr) {
 
 document.write(`<span>${key.join("")}</span>`);
 
-console.log(key);
+.//console.log(key);
 
 
 
