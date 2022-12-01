@@ -3,16 +3,17 @@
 // sum(5) = 8
 // sum(20) = 28
 
-
 function sum() {
-        let term = 1;                           //ввели переменную, к кторой будем суммировать в след функции
-         return function sum1(number) {
-            term += number;
-                return term;
-        }  
+    let term = 1;                        //ввели переменную, к кторой будем суммировать в след функции
+    return function sum1(number) {
+        return term += number; ф
     }
-    
-    sum();
+}
 
-    console.log(sum(2));
-    console.log(sum(4));
+const result = sum();
+
+console.log(result(2));
+console.log(result(4));
+
+
+
