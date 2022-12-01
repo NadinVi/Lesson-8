@@ -6,7 +6,7 @@
 function sum() {
     let term = 1;                        //ввели переменную, к кторой будем суммировать в след функции
     return function sum1(number) {
-        return term += number; ф
+        return term += number; 
     }
 }
 
@@ -14,6 +14,8 @@ const result = sum();
 
 console.log(result(2));
 console.log(result(4));
+console.log(result(19));
 
+//document.write(`<span>${result(2)}</span>`)
 
 
