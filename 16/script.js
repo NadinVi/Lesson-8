@@ -7,7 +7,8 @@
 function sum() {
         let term = 1;                           //ввели переменную, к кторой будем суммировать в след функции
          return function sum1(number) {
-            return term += number;
+            term += number;
+                return term;
         }  
     }
     
