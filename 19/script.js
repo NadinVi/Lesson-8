@@ -5,7 +5,8 @@
 
 // newList = copy(list, function(value){ return value*10; })
 
-const arr = [1, 2, 3, true, 4, function f1() { }, 6];
+
+const arr = [1,2,3, true, 4, undefined, 6]; 
 
 function copy(list, func) {
     const copyArr = list.slice();
